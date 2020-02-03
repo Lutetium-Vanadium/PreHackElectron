@@ -1,0 +1,13 @@
+{
+  "name": "electron_test",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^7.1.11"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build-react": "cd app && yarn build"
+  }
+}
